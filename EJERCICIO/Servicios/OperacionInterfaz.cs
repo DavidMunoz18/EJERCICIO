@@ -8,6 +8,6 @@ namespace EJERCICIO.Servicios
 {
     internal interface OperacionInterfaz
     {
-        public int solicitar(int numero);
+        public int solicitar();
     }
 }

@@ -8,7 +8,7 @@ namespace EJERCICIO.Servicios
 {
     internal class OperacionImplementacion : OperacionInterfaz
     {
-        public int solicitar(int numero)
+        public int solicitar()
         {
             int numeroInt = Convert.ToInt32(Console.ReadLine());
             {
@@ -16,12 +16,13 @@ namespace EJERCICIO.Servicios
                 {
                     Console.WriteLine("es par");
                 }
-                else;
+                else
                 {
                     Console.WriteLine("es impar");
                 }
+                
             }
-
+            return numeroInt;
         }
     }
 }

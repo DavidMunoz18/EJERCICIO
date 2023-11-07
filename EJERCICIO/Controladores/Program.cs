@@ -20,6 +20,7 @@ namespace EJERCICIO.Controladores
                             cerrarMenu |= true;
                             break;
                             case 1:
+                            Console.WriteLine("1. Se ejecuta caso 1");
                             int solicita = oi.solicitar();
                             break;
 
